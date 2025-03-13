@@ -1,7 +1,7 @@
 FROM docker.io/library/php:8-apache
 
-LABEL org.opencontainers.image.source=https://github.com/digininja/DVWA
-LABEL org.opencontainers.image.description="DVWA pre-built image."
+LABEL org.opencontainers.image.source=https://github.com/deepaksinghwrites/DVWA
+LABEL org.opencontainers.image.description="DVWA image built from source."
 LABEL org.opencontainers.image.licenses="gpl-3.0"
 
 WORKDIR /var/www/html
